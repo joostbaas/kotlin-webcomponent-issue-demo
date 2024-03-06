@@ -58,7 +58,7 @@ kotlin {
         jsMain.get().dependencies {
             val kotlinVersion = "1.9.22"
             implementation("org.jetbrains.kotlin:kotlin-stdlib-js:${kotlinVersion}")
-            implementation("org.jetbrains.kotlin-wrappers:kotlin-browser:1.0.0-pre.705")
+            implementation("org.jetbrains.kotlin-wrappers:kotlin-browser:1.0.0-pre.710")
         }
     }
 }

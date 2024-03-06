@@ -3,14 +3,16 @@
 
 package webcomponent.works
 
+import web.components.CustomElement
 import web.components.ShadowRootInit
 import web.dom.document
+import web.html.HTMLElement
 import webcomponent.ATTRIBUTE_NAME
 
 @JsExport
 @ExperimentalJsExport
 @JsName("WorkingWebComponent")
-class WorkingWebComponent : HTMLElement() {
+class WorkingWebComponent : HTMLElement(), CustomElement.WithCallbacks {
 
     init {
         console.log("Hello from $WHO_AM_I.constructor()!")
