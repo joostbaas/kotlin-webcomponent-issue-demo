@@ -51,8 +51,6 @@ kotlin {
             val kotlinVersion = "1.9.22"
             val http4kVersion = "5.13.8.0"
 
-            implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.11.0")
-
             implementation("org.http4k:http4k-client-okhttp:${http4kVersion}")
             implementation("org.http4k:http4k-core:${http4kVersion}")
             implementation("org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}")
