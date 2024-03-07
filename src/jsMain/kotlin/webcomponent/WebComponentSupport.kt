@@ -23,7 +23,7 @@ const val ATTRIBUTE_NAME = "some-attribute"
 @OptIn(ExperimentalJsExport::class)
 @JsExport
 @JsName("initializeKotlinWebComponents")
-fun initializeKotlinWebComponents() {
+fun main() {
     println("Initializing WebComponentSupport")
     customElements.register(WORKING_WEBCOMPONENT, WorkingWebComponent::class.js)
     document.onreadystatechange = {
